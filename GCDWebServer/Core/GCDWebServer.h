@@ -306,6 +306,7 @@ extern NSString* const GCDWebServerAuthenticationMethod_DigestAccess;
  *
  *  See the README.md file for more information about the architecture of GCDWebServer.
  */
+NS_EXTENSION_UNAVAILABLE("GCDWebServer not supported in extensions (deprecated use of UIApplication shared)")
 @interface GCDWebServer : NSObject
 
 /**
